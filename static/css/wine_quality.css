@@ -146,6 +146,39 @@ blockquote {
   color: #707070;
 }
 
+.tm-icon-media {
+  margin-right: 1.5rem;
+  margin-bottom: 0;
+}
+
+.tm-bg-transparent-black {
+  background-color: rgba(0,0,0,0.25);    
+  padding: 30px;
+}
+
+.tm-contact-box-pad { padding: 60px 55px; }
+.tm-border-white { border: 1px solid white; margin: 10px;}
+.media { align-items: center; }
+
+.tm-icon-circled {
+  font-size: 3rem;
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+          justify-content: center;
+  width: 100px;
+  height: 100px;
+}
+
+
 /* Hero */
 
 #winequality {
