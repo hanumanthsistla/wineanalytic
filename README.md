@@ -3,7 +3,12 @@
 Annette Broeren  
 Tanlin Hung  
 Rick Spitzer  
-Kate Spitzer  
+Kate Spitzer
+
+
+
+To run our wine quality site, visit:  https://ucsd-winequality.herokuapp.com/
+
 
 
 # Purpose
