@@ -9,6 +9,8 @@ Kate Spitzer
 
 To run our wine quality site, visit:  https://ucsd-winequality.herokuapp.com/
 
+To take a look at the code, go here: https://github.com/kmspitzer/final-wineproject
+
 
 
 # Purpose
