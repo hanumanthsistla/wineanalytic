@@ -11,7 +11,7 @@ To run our wine quality site, visit:  https://ucsd-winequality.herokuapp.com/
 
 To take a look at the code, go here: https://github.com/kmspitzer/final-wineproject
 
-
+![image](/static/img/winepage1.png)
 
 # Purpose
 The purpose of this project was to create an interactive app for prospective winemakers to test expected wine quality based on physicochemical components.
