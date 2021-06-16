@@ -36,13 +36,11 @@ Modeling wine preferences by data mining from physicochemical properties. In Dec
 
 The data set contains 2 CSV files, one for white wines and one for red wine.  During our exploration we found that between the red wine and white wine, the results were not noticably different.  Therefore, we decided to simplify our model and only work with the red wine data set (approximately 1,600 records).  
 
-![image](/static/img/winepage2.png)
 
 # General Information
 Courtesy Wikipedia, edited for length:  Vinho Verde refers to Portuguese wine that originated in the historic Minho province in the far north of the country. Vinho Verde is not a grape variety, it is a DOC for the production of wine. The name means "green wine," but translates as "young wine", with wine being released three to six months after the grapes are harvested.  The region is characterized by its many small growers, which numbered around 19,000 as of 2014. Many of these growers used to train their vines high off the ground, up trees, fences, and even telephone poles so that they could cultivate vegetable crops below the vines that their families may use as a food source.  Red wine is produced from whole dark red or black graphes including the skin. White wine is made from white grapes with no skins or seeds.  Sounds delicious? Read on ...
 
-
-![image](/static/img/winepage3.png)
+![image](/static/img/winepage2.png)
 
 # Understanding Wine Attributes and Properties
 
@@ -76,8 +74,9 @@ Sulfates are salts of sulfuric acid. They aren’t involved in wine production, 
 ## Alcohol
 Alcohol is formed as a result of yeast converting sugar during the fermentation process.
 
-![image](/static/img/winepage4.png)
-![image](/static/img/winepage5.png)
+
+![image](/static/img/winepage3.png)
+
 
 # Data Cleaning and Exploration
 Our dataset contained a relatively small number of null values.  We ran tests to determine the best way to handle this situation; to remove rows with null datapoints, or to populate null values with the mean for the column.  Both approaches were tested to see if there was an affect on the outcome, and we found any difference to be negligible.  We decided to populate with the column mean.
@@ -86,8 +85,9 @@ Looking at the distribution of datapoints by feature, we saw a few outliers.  We
 
 As with most who explored this dataset, we too found that most wines from the data set are of good quality: only few are poor or excellent.  Sounds like Vinho Verde is a pretty solid place to grow grapes and make wine, right?!  In order to balance our data, we used the imbalanced learning method SMOTE().  This significantly improved our results.
 
+![image](/static/img/winepage4.png)
+![image](/static/img/winepage5.png)
 
-![image](/static/img/winepage6.png)
 
 # Machine Learning Model
 Once we normalized the data, we explored several classifiers:
@@ -105,7 +105,7 @@ Once we normalized the data, we explored several classifiers:
 
 Our machine learning models were run with varying percentages of train and test data, ranging from a 75/25 split to 80/20. Our results ranged from 69% to 95%, the highest being from the Random Forest Regression, Random Forest, and XGBoost models. We were pretty happy with our 95% scores, which are pretty great if you ask us: that could make some pretty reliable wine-making! Once the model was established, we created several super-interesting graphs that you can find on the deployed app.
 
-
+![image](/static/img/winepage6.png)
 ![image](/static/img/winepage7.png)
 
 # Deployment
