@@ -145,7 +145,7 @@ https://youtu.be/BqDae4GPnu0
 
 RAISE A GLASS!!!!
 
-![image](https://user-images.githubusercontent.com/57690014/118346457-68e63480-b4f0-11eb-8b05-a0705b52d8f1.png)
+![image](/static/img/wine3.png)
 
 
 
